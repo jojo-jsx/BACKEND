@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "tutorial for backend",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojo-jsx/BACKEND.git"
+  },
+  "author": "Jojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jojo-jsx/BACKEND/issues"
+  },
+  "homepage": "https://github.com/jojo-jsx/BACKEND#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5",
+    "nodemon": "^3.1.14"
+  }
+}
